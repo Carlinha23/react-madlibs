@@ -1,9 +1,9 @@
 import React from "react";
-import CardTable from "./CardTable";
+import Madlib from "./Madlib";
 
 function App() {
   return (
-    <CardTable />
+    <Madlib />
   );
 }
 
