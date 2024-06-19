@@ -11,7 +11,7 @@ function Madlib() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const newStory = `There was a ${adjective1} ${color} ${noun1} who loved a ${adjective2} ${noun2}. They would often go on ${adjective3} adventures together.`;
+    const newStory = `There was a ${color} ${noun1} who loved a ${adjective1} ${noun2}.`;
     setStory(newStory);
   };
 
